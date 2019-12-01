@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+   <!-- app_id -->
+  <string name="app_id" translatable="false">219074993939</string>
+  <!-- package_name -->
+  <string name="package_name" translatable="false">com.WG.LEO.The.Super.Cat.Adventures</string>
+  <!-- achievement First place -->
+  <string name="achievement_first_place" translatable="false">CgkIk76Mj7AGEAIQAQ</string>
+  <!-- achievement Second place -->
+  <string name="achievement_second_place" translatable="false">CgkIk76Mj7AGEAIQAg</string>
+  <!-- achievement Third place -->
+  <string name="achievement_third_place" translatable="false">CgkIk76Mj7AGEAIQAw</string>
+  <!-- achievement Fourth place -->
+  <string name="achievement_fourth_place" translatable="false">CgkIk76Mj7AGEAIQBA</string>
+  <!-- achievement Fifth place -->
+  <string name="achievement_fifth_place" translatable="false">CgkIk76Mj7AGEAIQBQ</string>
+  <!-- leaderboard High Score Leaderboard -->
+  <string name="leaderboard_high_score_leaderboard" translatable="false">CgkIk76Mj7AGEAIQAA</string>
+</resources>
+ 

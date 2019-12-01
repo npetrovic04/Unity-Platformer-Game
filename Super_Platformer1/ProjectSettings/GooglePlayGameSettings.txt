@@ -1,0 +1,9 @@
+lastUpgrade=00953
+proj.pluginVersion=0.9.53
+proj.AppId=219074993939
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSIds
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--%0d%0aGoogle+Play+game+services+IDs.%0d%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0d%0a--%3e%0d%0a%3cresources%3e%0d%0a++%3c%21--+app_id+--%3e%0d%0a++%3cstring+name%3d%22app_id%22+translatable%3d%22false%22%3e219074993939%3c%2fstring%3e%0d%0a++%3c%21--+package_name+--%3e%0d%0a++%3cstring+name%3d%22package_name%22+translatable%3d%22false%22%3ecom.WG.LEO.The.Super.Cat.Adventures%3c%2fstring%3e%0d%0a++%3c%21--+achievement+First+place+--%3e%0d%0a++%3cstring+name%3d%22achievement_first_place%22+translatable%3d%22false%22%3eCgkIk76Mj7AGEAIQAQ%3c%2fstring%3e%0d%0a++%3c%21--+achievement+Second+place+--%3e%0d%0a++%3cstring+name%3d%22achievement_second_place%22+translatable%3d%22false%22%3eCgkIk76Mj7AGEAIQAg%3c%2fstring%3e%0d%0a++%3c%21--+achievement+Third+place+--%3e%0d%0a++%3cstring+name%3d%22achievement_third_place%22+translatable%3d%22false%22%3eCgkIk76Mj7AGEAIQAw%3c%2fstring%3e%0d%0a++%3c%21--+achievement+Fourth+place+--%3e%0d%0a++%3cstring+name%3d%22achievement_fourth_place%22+translatable%3d%22false%22%3eCgkIk76Mj7AGEAIQBA%3c%2fstring%3e%0d%0a++%3c%21--+achievement+Fifth+place+--%3e%0d%0a++%3cstring+name%3d%22achievement_fifth_place%22+translatable%3d%22false%22%3eCgkIk76Mj7AGEAIQBQ%3c%2fstring%3e%0d%0a++%3c%21--+leaderboard+High+Score+Leaderboard+--%3e%0d%0a++%3cstring+name%3d%22leaderboard_high_score_leaderboard%22+translatable%3d%22false%22%3eCgkIk76Mj7AGEAIQAA%3c%2fstring%3e%0d%0a%3c%2fresources%3e%0d%0a
+and.ClientId=
+android.SetupDone=true
+and.BundleId=com.WG.LEO.The.Super.Cat.Adventures

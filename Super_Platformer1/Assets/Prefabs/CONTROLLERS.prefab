@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1516802690145778}
+  m_IsPrefabParent: 1
+--- !u!1 &1051126879736524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4892791772042460}
+  - component: {fileID: 114264556336986614}
+  m_Layer: 0
+  m_Name: AudioCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1202298983182932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4294708102334474}
+  - component: {fileID: 114658645654537032}
+  m_Layer: 0
+  m_Name: SFXCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1516802690145778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4653413479274452}
+  m_Layer: 0
+  m_Name: CONTROLLERS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1730159196462152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4229055164659484}
+  - component: {fileID: 114771828160461388}
+  m_Layer: 0
+  m_Name: MobileUICtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1853074969327980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4507196396354682}
+  - component: {fileID: 114607687435652036}
+  m_Layer: 0
+  m_Name: GameCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4229055164659484
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730159196462152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4653413479274452}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4294708102334474
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1202298983182932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4653413479274452}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4507196396354682
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1853074969327980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4653413479274452}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4653413479274452
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1516802690145778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4229055164659484}
+  - {fileID: 4294708102334474}
+  - {fileID: 4507196396354682}
+  - {fileID: 4892791772042460}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4892791772042460
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051126879736524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4653413479274452}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114264556336986614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051126879736524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6558001ee501284fbab6e12a27f6344, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAudio:
+    playerJump: {fileID: 8300000, guid: e5916fbc63e7c4443abd412cb3bd6e2a, type: 3}
+    coinPickup: {fileID: 8300000, guid: 1e0c102bdaf3c42f1b48ae92598c5f4b, type: 3}
+    fireBullets: {fileID: 8300000, guid: c3e7b44ee31e64d7fa34b81ec52c4c4c, type: 3}
+    enemyExplotion: {fileID: 8300000, guid: 9e5669deb0c2f49b2adae4f686f978b5, type: 3}
+    breakCrates: {fileID: 8300000, guid: b668216871e694c2f9bb965f86b2faf9, type: 3}
+    waterSplash: {fileID: 8300000, guid: a9201c2e5628d4cda9e92854595b2171, type: 3}
+    powerUp: {fileID: 8300000, guid: e7350538692d24099adb730f84a86860, type: 3}
+    keyFound: {fileID: 8300000, guid: 5363dd8d1cd3c42e3b85d6f52395a4c7, type: 3}
+    enemyHit: {fileID: 8300000, guid: 92854dd9ae0984259a33c06bf3ea4322, type: 3}
+    playerDied: {fileID: 8300000, guid: 38c9d812f3d774f5699f294d0f83df1b, type: 3}
+  player: {fileID: 0}
+  BGMusic: {fileID: 0}
+  bgMusicOn: 1
+  btnSound: {fileID: 0}
+  btnMusic: {fileID: 0}
+  imgSoundOn: {fileID: 21300314, guid: 7f51b2aedd529424a82328b6fb31a7a5, type: 3}
+  imgSoundOff: {fileID: 21300318, guid: 7f51b2aedd529424a82328b6fb31a7a5, type: 3}
+  imgMusicOn: {fileID: 21300298, guid: 7f51b2aedd529424a82328b6fb31a7a5, type: 3}
+  imgMusicOff: {fileID: 21300302, guid: 7f51b2aedd529424a82328b6fb31a7a5, type: 3}
+  soundOn: 1
+--- !u!114 &114607687435652036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1853074969327980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ace965a2a3ac6d4cac1b663ef2f34a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restartDelay: 1
+  data:
+    coinCount: 10
+    lives: 3
+    score: 0
+    keyFound: 000000
+    levelData:
+    - levelNumber: 0
+      isUnlocked: 0
+      starsAwarded: 0
+    - levelNumber: 1
+      isUnlocked: 1
+      starsAwarded: 3
+    isFirstBoot: 0
+    playSound: 0
+    playMusic: 0
+  ui:
+    txtCoinCount: {fileID: 0}
+    txtScore: {fileID: 0}
+    txtTimer: {fileID: 0}
+    key0: {fileID: 0}
+    key1: {fileID: 0}
+    key2: {fileID: 0}
+    key0Full: {fileID: 21300000, guid: 3e08735513a654b1abba299fcd4b6ada, type: 3}
+    key1Full: {fileID: 21300000, guid: 47cf76cfeb78a4ea383c4904c0260cca, type: 3}
+    key2Full: {fileID: 21300000, guid: cd2df7022edc44cea9d4ddbe9064a7d2, type: 3}
+    heart1: {fileID: 0}
+    heart2: {fileID: 0}
+    heart3: {fileID: 0}
+    emptyHeart: {fileID: 21300000, guid: fcf2c01e77e074b6bb02a23973787849, type: 3}
+    fullHeart: {fileID: 21300000, guid: 41bb06b56d48d4c04ad6f95c8d753835, type: 3}
+    bossHealth: {fileID: 114124114270233578, guid: 504ad9123fb842a45a328d22216a14b0,
+      type: 2}
+    panelGameOver: {fileID: 0}
+    levelCompleteMenu: {fileID: 0}
+    panelMobileUI: {fileID: 0}
+    panelPause: {fileID: 0}
+  bigCoin: {fileID: 1315958120256552, guid: d137ca91164dcea4cb5279d3884a881d, type: 2}
+  player: {fileID: 0}
+  lever: {fileID: 1919403124148300, guid: 7e5dd525981181e4aa36f4202835f0d7, type: 2}
+  enemySpawner: {fileID: 0}
+  signPlatform: {fileID: 1999094156278484, guid: dae869a2d47d7914c80f30f30cd6f26a,
+    type: 2}
+  coinValue: 1
+  bigCoinValue: 10
+  enemyValue: 50
+  maxTime: 120
+  btnPause: {fileID: 0}
+--- !u!114 &114658645654537032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1202298983182932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec9021d867fb673458f883647df1aef0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfx:
+    sfx_coin_pickup: {fileID: 116108, guid: 520a250d5ad784c9daafddc2a8d8db7b, type: 2}
+    sfx_bullet_pickup: {fileID: 113666, guid: e08af543c29d74f4dac3bd4e7a6fa1f0, type: 2}
+    sfx_playerLands: {fileID: 159234, guid: 7a5b70226ffc04e8196c93d1bb513e05, type: 2}
+    sfx_fragment_1: {fileID: 1153143339404476, guid: 8b7e5f1a0281a8142b50da965370def9,
+      type: 2}
+    sfx_fragment_2: {fileID: 1153143339404476, guid: 56e9b3474cc89224b9c550e00f3f900e,
+      type: 2}
+    sfx_splash: {fileID: 177332, guid: c107d245af1294bba9cfc31ada72f0c0, type: 2}
+    sfx_enemy_explosion: {fileID: 181022, guid: 6cc865aeea61d4faf894fac185254654,
+      type: 2}
+    sfx_Fireworks_1: {fileID: 0}
+  key0: {fileID: 0}
+  key1: {fileID: 0}
+  key2: {fileID: 0}
+--- !u!114 &114771828160461388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730159196462152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff07bf0d8ccb3f9408b6e1b30d8c899e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
